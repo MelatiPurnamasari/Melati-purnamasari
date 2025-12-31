@@ -1,0 +1,269 @@
+/* RESET DASAR */
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* BACKGROUND HALAMAN */
+body {
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+    margin: 0;
+    padding: 40px 0;
+}
+
+/* CONTAINER FORM */
+.form-container {
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 30px 35px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 123, 255, 0.15);
+}
+
+/* JUDUL */
+h1 {
+    text-align: center;
+    color: #0d47a1;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #1565c0;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+/* GARIS PEMISAH */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #bbdefb;
+    margin: 25px 0;
+}
+
+/* LABEL */
+label, p {
+    color: #0d47a1;
+    font-weight: 500;
+}
+
+/* INPUT, SELECT */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+input[type="file"],
+select {
+    width: 100%;
+    padding: 10px 12px;
+    margin-top: 6px;
+    border: 1.5px solid #90caf9;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* FOCUS */
+input:focus,
+select:focus {
+    border-color: #1e88e5;
+    box-shadow: 0 0 0 3px rgba(30, 136, 229, 0.2);
+}
+
+/* RADIO & CHECKBOX */
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: #1e88e5;
+    margin-right: 6px;
+}
+
+/* COLOR INPUT */
+input[type="color"] {
+    width: 70px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+/* BUTTON */
+button {
+    background-color: #1e88e5;
+    color: #ffffff;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 8px;
+    transition: 0.3s;
+}
+
+/* HOVER BUTTON */
+button:hover {
+    background-color: #1565c0;
+}
+
+/* RESET BUTTON */
+button[type="reset"] {
+    background-color: #90caf9;
+    color: #0d47a1;
+}
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+/* BODY */
+body {
+    background: linear-gradient(135deg, #dbeeff, #f2f9ff);
+    min-height: 100vh;
+    padding: 40px;
+    color: #2c3e50;
+}
+
+/* CONTAINER FORM */
+.form-container {
+    max-width: 650px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 30px 35px;
+    border-radius: 25px;
+    box-shadow: 0 15px 30px rgba(52, 152, 219, 0.25);
+    border: 4px dashed #b6ddff;
+}
+
+/* JUDUL */
+.form-container h1 {
+    text-align: center;
+    color: #3498db;
+    margin-bottom: 25px;
+}
+
+.form-container h2 {
+    color: #2980b9;
+    margin: 20px 0 10px;
+    font-size: 18px;
+}
+
+/* GARIS PEMISAH */
+hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, #dbeeff, #3498db, #dbeeff);
+    margin: 25px 0;
+}
+
+/* LABEL */
+label {
+    font-weight: 500;
+    color: #34495e;
+}
+
+/* INPUT, SELECT */
+input,
+select {
+    width: 100%;
+    padding: 10px 14px;
+    margin-top: 6px;
+    border-radius: 14px;
+    border: 2px solid #cfe8ff;
+    outline: none;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+/* FOCUS EFFECT */
+input:focus,
+select:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 0 4px rgba(52, 152, 219, 0.2);
+}
+
+/* RADIO & CHECKBOX */
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 6px;
+    accent-color: #3498db;
+}
+
+/* FILE INPUT */
+input[type="file"] {
+    padding: 8px;
+    background-color: #f2f9ff;
+}
+
+/* COLOR INPUT */
+input[type="color"] {
+    height: 45px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* BUTTON */
+button {
+    padding: 10px 18px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+/* BUTTON SUBMIT */
+button[type="submit"] {
+    background: linear-gradient(135deg, #3498db, #5dade2);
+    color: white;
+}
+
+button[type="submit"]:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(52, 152, 219, 0.4);
+}
+
+/* BUTTON RESET */
+button[type="reset"] {
+    background-color: #ecf0f1;
+    color: #3498db;
+}
+
+button[type="reset"]:hover {
+    background-color: #d6eaf8;
+}
+
+/* DISABLED */
+input:disabled {
+    background-color: #ecf0f1;
+    color: #999;
+}
+
+/* READONLY */
+input[readonly] {
+    background-color: #f4f9ff;
+    border-style: dashed;
+}
+ver {
+    background-color: #64b5f6;
+}
+
+/* INPUT DISABLED */
+input:disabled {
+    background-color: #eeeeee;
+    color: #777;
+    cursor: not-allowed;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    .form-container {
+        padding: 25px 20px;
+    }
+}
